@@ -3,6 +3,7 @@
 require "thor"
 require "date"
 require "fileutils"
+require "front_matter_parser"
 require "time"
 
 class String
@@ -16,30 +17,50 @@ class String
   end
 end
 
-def contents(name, date, tags)
+def contents(title, date, tags)
   <<~EOF
     ---
-    name: #{name}
+    title: #{title}
     date: #{date}
     tags: #{tags}
     ---
   EOF
 end
 
+def summary(data)
+  data = data.sort_by { |d| d[:date] }.reverse
+
+  <<~EOF
+    # Today I learned
+
+    Total : #{data.size} TILs
+
+    ## All Entries
+
+    #{data.map { |entry| entry_row(entry) }.join}
+  EOF
+end
+
+def entry_row(entry)
+  <<~EOF
+    - [#{entry[:title]}](./#{entry[:path]}) - #{entry[:date]}
+  EOF
+end
+
 class TIL < Thor
   desc "new", "Create new TIL entry"
   def new
-    entry_name = nil
+    title = nil
 
     loop do
-      entry_name = ask "Entry name:"
-      break unless entry_name.empty?
-      puts "Entry name required"
+      title = ask "Title:"
+      break unless title.empty?
+      puts "Title required"
     end
 
     entry_date = ask "Date:", default: Time.now.strftime("%Y-%m-%d")
     entry_date = Date.parse(entry_date).strftime("%Y-%m-%d")
-    file_name = "#{entry_date}-#{entry_name.kebab_case}.md"
+    filename = "#{entry_date}-#{title.kebab_case}.md"
 
     entry_tags = ask("Tags (Comma separated):")
       .split(",")
@@ -49,9 +70,31 @@ class TIL < Thor
       .join(", ")
 
     FileUtils.mkdir_p("entries")
-    File.write("entries/#{file_name}", contents(entry_name, entry_date, entry_tags))
+    File.write("entries/#{filename}", contents(title, entry_date, entry_tags))
 
-    system("$EDITOR entries/#{file_name}")
+    system("$EDITOR entries/#{filename}")
+  end
+
+  desc "compile", "Compile all entries & update README.md"
+  def compile
+    files = Dir.glob("entries/*.md")
+
+    loader = FrontMatterParser::Loader::Yaml.new(whitelist_classes: [Date])
+
+    data = files.map do |path|
+      parsed = FrontMatterParser::Parser.parse_file(path, loader: loader)
+
+      {
+        title: parsed.front_matter["title"],
+        date: parsed.front_matter["date"].strftime("%Y-%m-%d"),
+        tags: (parsed.front_matter["tags"] || "Untagged").split(", "),
+        path: path,
+      }
+    end
+
+    File.write("README.md", summary(data))
+
+    puts "Compiled"
   end
 end
 

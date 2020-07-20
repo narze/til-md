@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    front_matter_parser (0.2.1)
     thor (1.0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  front_matter_parser (~> 0.2.1)
   thor (~> 1.0)
 
 BUNDLED WITH
