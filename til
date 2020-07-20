@@ -38,6 +38,12 @@ def summary(data)
     ## All Entries
 
     #{data.map { |entry| entry_row(entry) }.join}
+
+    ## CLI Usage
+
+    - `bundle install`
+    - `./til new` Create new entry
+    - `./til compile` Compile summary & rebuild README
   EOF
 end
 
