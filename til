@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "thor"
+
+class TIL < Thor
+  desc "new", "Create new TIL entry"
+  def new
+    puts "Creating new entry"
+  end
+end
+
+TIL.start(ARGV)
