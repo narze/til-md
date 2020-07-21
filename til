@@ -8,6 +8,7 @@ require "time"
 
 class String
   def kebab_case
+    gsub(/[^A-Z_a-z0-9-]/, '').
     gsub(/([A-Z]+)([A-Z][a-z])/,'\1-\2').
     gsub(/([a-z\d])([A-Z])/,'\1-\2').
     tr('_', '-').
