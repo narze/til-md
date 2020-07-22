@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 5 TILs
+Total : 6 TILs
 
 ## All Entries
 
+- [Minitest create custom assertions](./entries/2020-07-22-minitest-create-custom-assertions.md) - 2020-07-22
 - [Ruby Squiggly Heredoc](./entries/2020-07-21-ruby-squiggly-heredoc.md) - 2020-07-21
 - [Run npm scripts in parallel with single &](./entries/2020-07-21-run-npm-scripts-in-parallel-with-single-ampersand.md) - 2020-07-21
 - [Ruby Struct with :keyword_init option](./entries/2020-07-21-ruby-struct-with-keyword-init-option.md) - 2020-07-21
