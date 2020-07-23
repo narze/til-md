@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 6 TILs
+Total : 7 TILs
 
 ## All Entries
 
+- [Exclude dependencies from production bundles with Webpack](./entries/2020-07-23-exclude-dependencies-from-production-bundles-with-webpack.md) - 2020-07-23
 - [Minitest create custom assertions](./entries/2020-07-22-minitest-create-custom-assertions.md) - 2020-07-22
 - [Ruby Squiggly Heredoc](./entries/2020-07-21-ruby-squiggly-heredoc.md) - 2020-07-21
 - [Run npm scripts in parallel with single &](./entries/2020-07-21-run-npm-scripts-in-parallel-with-single-ampersand.md) - 2020-07-21
