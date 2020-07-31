@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 11 TILs
+Total : 12 TILs
 
 ## All Entries
 
+- [Assign value or object in separate thread to use in main thread](./entries/2020-07-31-assign-value-or-object-in-separate-thread-to-use-in-main-thread.md) - 2020-07-31
 - [Generate QR Code from command line with npx qrcode](./entries/2020-07-30-generate-qr-code-from-command-line-with-npx-qrcode.md) - 2020-07-30
 - [Highlight current line then copy to macOS clipboard](./entries/2020-07-29-highlight-current-line-then-copy-to-mac-os-clipboard.md) - 2020-07-29
 - [DOM outerHTML](./entries/2020-07-27-dom-outer-html.md) - 2020-07-27
@@ -15,7 +16,6 @@ Total : 11 TILs
 - [Ruby Squiggly Heredoc](./entries/2020-07-21-ruby-squiggly-heredoc.md) - 2020-07-21
 - [Minitest does not have described_class like rspec](./entries/2020-07-20-minitest-does-not-have-described-class-like-rspec.md) - 2020-07-20
 - [FontAwesome icons in sequencediagram.org](./entries/2020-07-19-sequence-diagram-org-logo.md) - 2020-07-19
-
 
 ## CLI Usage
 
