@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 13 TILs
+Total : 14 TILs
 
 ## All Entries
 
+- [Map each pair of object with Object.entries](./entries/2020-08-06-map-each-pair-of-object-with-objectentries.md) - 2020-08-06
 - [Redirect to localhost with lvh.me](./entries/2020-08-01-redirect-to-localhost-with-lvhme.md) - 2020-08-01
 - [Assign value or object in separate thread to use in main thread](./entries/2020-07-31-assign-value-or-object-in-separate-thread-to-use-in-main-thread.md) - 2020-07-31
 - [Generate QR Code from command line with npx qrcode](./entries/2020-07-30-generate-qr-code-from-command-line-with-npx-qrcode.md) - 2020-07-30
