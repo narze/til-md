@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 15 TILs
+Total : 16 TILs
 
 ## All Entries
 
+- [Use Hashdiff for comparing arrays or hashes in tests](./entries/2020-08-25-use-hashdiff-for-comparing-arrays-or-hashes-in-tests.md) - 2020-08-25
 - [Use zip with open-ended range to create hash with running numbers](./entries/2020-08-17-use-zip-with-open-ended-range-to-create-hash-with-running-numbers.md) - 2020-08-17
 - [Map each pair of object with Object.entries](./entries/2020-08-06-map-each-pair-of-object-with-objectentries.md) - 2020-08-06
 - [Redirect to localhost with lvh.me](./entries/2020-08-01-redirect-to-localhost-with-lvhme.md) - 2020-08-01
@@ -15,8 +16,8 @@ Total : 15 TILs
 - [Exclude dependencies from production bundles with Webpack](./entries/2020-07-23-exclude-dependencies-from-production-bundles-with-webpack.md) - 2020-07-23
 - [Minitest create custom assertions](./entries/2020-07-22-minitest-create-custom-assertions.md) - 2020-07-22
 - [Ruby Struct with :keyword_init option](./entries/2020-07-21-ruby-struct-with-keyword-init-option.md) - 2020-07-21
-- [Run npm scripts in parallel with single &](./entries/2020-07-21-run-npm-scripts-in-parallel-with-single-ampersand.md) - 2020-07-21
 - [Ruby Squiggly Heredoc](./entries/2020-07-21-ruby-squiggly-heredoc.md) - 2020-07-21
+- [Run npm scripts in parallel with single &](./entries/2020-07-21-run-npm-scripts-in-parallel-with-single-ampersand.md) - 2020-07-21
 - [Minitest does not have described_class like rspec](./entries/2020-07-20-minitest-does-not-have-described-class-like-rspec.md) - 2020-07-20
 - [FontAwesome icons in sequencediagram.org](./entries/2020-07-19-sequence-diagram-org-logo.md) - 2020-07-19
 
