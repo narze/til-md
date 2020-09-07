@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 16 TILs
+Total : 17 TILs
 
 ## All Entries
 
+- [console.table()](./entries/2020-09-07-console-table.md) - 2020-09-07
 - [Use Hashdiff for comparing arrays or hashes in tests](./entries/2020-08-25-use-hashdiff-for-comparing-arrays-or-hashes-in-tests.md) - 2020-08-25
 - [Use zip with open-ended range to create hash with running numbers](./entries/2020-08-17-use-zip-with-open-ended-range-to-create-hash-with-running-numbers.md) - 2020-08-17
 - [Map each pair of object with Object.entries](./entries/2020-08-06-map-each-pair-of-object-with-objectentries.md) - 2020-08-06
