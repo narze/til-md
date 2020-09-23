@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 18 TILs
+Total : 19 TILs
 
 ## All Entries
 
+- [Run psql against localhost postgres database from Docker for Mac](./entries/2020-09-23-run-psql-against-localhost-postgres-database-from-docker-for-mac.md) - 2020-09-23
 - [Create array with numbers 1 to N in Javascript](./entries/2020-09-18-create-array-with-numbers-1-to-n-in-javascript.md) - 2020-09-18
 - [console.table()](./entries/2020-09-07-console-table.md) - 2020-09-07
 - [Use Hashdiff for comparing arrays or hashes in tests](./entries/2020-08-25-use-hashdiff-for-comparing-arrays-or-hashes-in-tests.md) - 2020-08-25
@@ -18,8 +19,8 @@ Total : 18 TILs
 - [Exclude dependencies from production bundles with Webpack](./entries/2020-07-23-exclude-dependencies-from-production-bundles-with-webpack.md) - 2020-07-23
 - [Minitest create custom assertions](./entries/2020-07-22-minitest-create-custom-assertions.md) - 2020-07-22
 - [Run npm scripts in parallel with single &](./entries/2020-07-21-run-npm-scripts-in-parallel-with-single-ampersand.md) - 2020-07-21
-- [Ruby Squiggly Heredoc](./entries/2020-07-21-ruby-squiggly-heredoc.md) - 2020-07-21
 - [Ruby Struct with :keyword_init option](./entries/2020-07-21-ruby-struct-with-keyword-init-option.md) - 2020-07-21
+- [Ruby Squiggly Heredoc](./entries/2020-07-21-ruby-squiggly-heredoc.md) - 2020-07-21
 - [Minitest does not have described_class like rspec](./entries/2020-07-20-minitest-does-not-have-described-class-like-rspec.md) - 2020-07-20
 - [FontAwesome icons in sequencediagram.org](./entries/2020-07-19-sequence-diagram-org-logo.md) - 2020-07-19
 
