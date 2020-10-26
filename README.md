@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 19 TILs
+Total : 20 TILs
 
 ## All Entries
 
+- [Remove file from entire Git history](./entries/2020-10-26-remove-file-from-entire-git-history.md) - 2020-10-26
 - [Run psql against localhost postgres database from Docker for Mac](./entries/2020-09-23-run-psql-against-localhost-postgres-database-from-docker-for-mac.md) - 2020-09-23
 - [Create array with numbers 1 to N in Javascript](./entries/2020-09-18-create-array-with-numbers-1-to-n-in-javascript.md) - 2020-09-18
 - [console.table()](./entries/2020-09-07-console-table.md) - 2020-09-07
