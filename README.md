@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 20 TILs
+Total : 21 TILs
 
 ## All Entries
 
+- [Parse timestamp to human-friendly date format in command line](./entries/2021-04-07-parse-timestamp-to-human-friendly-date-format-in-command-line.md) - 2021-04-07
 - [Remove file from entire Git history](./entries/2020-10-26-remove-file-from-entire-git-history.md) - 2020-10-26
 - [Run psql against localhost postgres database from Docker for Mac](./entries/2020-09-23-run-psql-against-localhost-postgres-database-from-docker-for-mac.md) - 2020-09-23
 - [Create array with numbers 1 to N in Javascript](./entries/2020-09-18-create-array-with-numbers-1-to-n-in-javascript.md) - 2020-09-18
