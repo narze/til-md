@@ -1,9 +1,10 @@
 # Today I learned
 
-Total : 22 TILs
+Total : 23 TILs
 
 ## All Entries
 
+- [Speedtest on Raspberry pi](./entries/2021-11-16-speedtest-on-raspberry-pi.md) - 2021-11-16
 - [Install Haskell's GHC & Cabal with asdf](./entries/2021-05-09-install-haskells-ghc--cabal-with-asdf.md) - 2021-05-09
 - [Parse timestamp to human-friendly date format in command line](./entries/2021-04-07-parse-timestamp-to-human-friendly-date-format-in-command-line.md) - 2021-04-07
 - [Remove file from entire Git history](./entries/2020-10-26-remove-file-from-entire-git-history.md) - 2020-10-26
